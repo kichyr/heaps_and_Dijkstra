@@ -75,6 +75,8 @@ public:
     void max_heapify(int level);
     void build_max_heap();
 
+    void shift_up(int i);
+
     void rec_print(int level);
 };
 #endif //_STORAGE_H_
